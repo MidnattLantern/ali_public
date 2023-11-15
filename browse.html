@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/4b0d3e328e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/github-information.js"></script>
+    <title>Alma Isaksson</title>
+</head>
+<body class="wallpaper">
+    <header>
+        <div class="row no-gutters">
+            <div class="col-md-4">
+                <div class="logo margin-box"></div>
+            </div>
+            <div class="col-md-8">
+                <div class="row no-gutters blur-box">
+                    <div class="col heading">
+                        <h1 class="name">Introducing the human AI:</h1>
+                        <h2 class="title">Alma Isaksson<br>Junior full stack deveoper and illustrator</h2>
+                    </div>
+                </div>
+                <div class="row no-gutters">
+                    <div class="col blur-box">
+                        <ul id="nav" class="list-inline menucontainer">
+                            <li class="col-sm-3  list-inline-item menuitem">
+                                <a href="index.html" class="hvr-fade"><i class=" fa fa-address-card" aria-hidden="true"></i>
+                                    <span>
+                                        About
+                                    </span>
+                                </a>
+                            </li>
+                            <li class=" col-sm-3 list-inline-item menuitem">
+                                <a href="contact.html" class="hvr-fade"><i class="fa fa-envelope" aria-hidden="true"></i>
+                                    <span>
+                                        Contact
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="col-sm-3 ui-menu-color-not-current list-inline-item menuitem">
+                                <a href="browse.html" class="hvr-fade"><i class="fa fa-eye" aria-hidden="true"></i>
+                                    <span>
+                                        Browse
+                                    </span>
+                                </a>
+                            </li>
+                            <li class=" col-sm-3 list-inline-item menuitem">
+                                <a href="tgs_preview.html" class="hvr-fade"><i class="fa fa-star" aria-hidden="true"></i>
+                                    <span>
+                                        TGS
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section> <!-- class="container-fluid" -->
+        <div class="row blur-box margin-box">
+            <div class="col-md-4 section-column info-side-box white-font">
+
+                <div class="row">
+                    <div class="col">
+                        <h3 class="section-heading uppercase white-font text-center">
+                            Github
+                        </h3>
+                        <div>
+                            <input type="text" id="gh-username" class="text-center" value="MidnattLantern" oninput="fetchGithubInformation()">
+                            <div id="gh-user-data"></div> <!-- display user -->
+                            <div id="gh-repo-data"></div> <!-- display repositories -->
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-8 bg-color-three-reasons secion-column">
+                <div class="row">
+                    <div class="col">
+                        <h3 class="section-heading uppercase white-font text-center">
+                            Artstation
+                        </h3>
+                        <iframe src="https://midnight_lantern.artstation.com" title="My Artstation goes here" id="artstation-window">
+                            
+                        </iframe>
+                    </div>
+                </div>
+           </div>
+    </section>
+    <footer class="container-fluid">
+        <div id="footer-details" class="row">
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">
+                    About Me
+                </h5>
+                <p class="inline-block">
+                    Junor full stack developer ranging from HTML, to Python.
+                     Digital artist and designer profecient in CSP, Photoshop and Illustrator.
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">
+                    Download CV
+                </h5>
+                <p class="inline-block">
+                    You can download a printable PDF version of my CV here:
+                    <a href="../ali_resume/assets/cv/ALI resume.pdf" target="_blank" class="cv-pdf">
+                        <i class="fa fa-download" aria-hidden="true">
+                            <span class="sr-only">Download</span>
+                        </i>
+                    </a>
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">
+                    My Socials
+                </h5>
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.instagram.com/midnatt_lantern/?igshid=NGVhN2U2NjQ0Yg%3D%3D&utm_source=qr">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item social-links">
+                        <a target="_blank" href="https://www.pinterest.se/midnatt_lantern/art-by-midnatt-lantern/">
+                            <i class="fa fa-pinterest" aria-hidden="true"></i>
+                            <span class="sr-only">Pinterest</span>
+                        </a>
+                    </li>
+
+                    <li class="list-inline-item social-links">
+                        <a target="_blank" href="https://www.linkedin.com/in/alma-isaksson-16799a190/">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            <span class="sr-only">Linkedin</span>
+                        </a>
+                    </li>
+
+                    <li class="list-inline-item social-links">
+                        <a href="https://midnight_lantern.artstation.com" target="_blank">
+                            <i class="fa fa-brands fa-artstation" aria-hidden="true"></i>
+                            <span class="sr-only">Artstation</span>
+                        </a>
+                    </li>
+
+                    <li class="list-inline-item social-links show-discord-tag">
+                        <a href="https://www.discord.com/" target="_blank">
+                            <i class="fa fa-brands fa-discord" aria-hidden="true"></i>
+                            <span class="sr-only">Discord</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item social-links discord-tag">
+                        <p>Midnatt Lantern#6438</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

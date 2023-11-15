@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/4b0d3e328e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("6rA8pWYjMizElaVvk");
+        })();
+    </script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Alma Isaksson</title>
+</head>
+<body class="wallpaper">
+    <header>
+        <div class="row no-gutters">
+            <div class="col-md-4">
+                <div class="logo margin-box"></div>
+            </div>
+            <div class="col-md-8">
+                <div class="row no-gutters blur-box">
+                    <div class="col heading">
+                        <h1 class="name">Introducing the human AI:</h1>
+                        <h2 class="title">Alma Isaksson<br>Junior full stack deveoper and illustrator</h2>
+                    </div>
+                </div>
+                <div class="row no-gutters">
+                    <div class="col blur-box">
+                        <ul id="nav" class="list-inline menucontainer">
+                            <li class="col-sm-3  list-inline-item menuitem">
+                                <a href="index.html" class="hvr-fade"><i class=" fa fa-address-card" aria-hidden="true"></i>
+                                    <span>
+                                        About
+                                    </span>
+                                </a>
+                            </li>
+                            <li class=" col-sm-3 ui-menu-color-not-current list-inline-item menuitem">
+                                <a href="contact.html" class="hvr-fade"><i class="fa fa-envelope" aria-hidden="true"></i>
+                                    <span>
+                                        Contact
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="col-sm-3 list-inline-item menuitem">
+                                <a href="browse.html" class="hvr-fade"><i class="fa fa-eye" aria-hidden="true"></i>
+                                    <span>
+                                        Browse
+                                    </span>
+                                </a>
+                            </li>
+                            <li class=" col-sm-3 list-inline-item menuitem">
+                                <a href="tgs_preview.html" class="hvr-fade"><i class="fa fa-star" aria-hidden="true"></i>
+                                    <span>
+                                        TGS
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section> <!-- class="container-fluid" -->
+        <div class="row blur-box margin-box">
+            <div class="col-md-4 section-column info-side-box white-font">
+                <div>
+                    <div class="col-12">
+                        <div>
+                            <h3 class="section-heading uppercase white-font">
+                                My collaborations
+                            </h3>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-dates="Summer 2023 - Currently In Progress">
+                        <h4>
+                            With Emma Fyrmark
+                        </h4>
+                        <a href="https://midnattlantern.github.io/the_good_samaritan/" target="_blank" class="collab-link">
+                            Webcomic: The Good Samaritan
+                        </a>
+                    </div>
+
+                    <div class="timeline-item" data-dates="Summer 2023">
+                        <h4>
+                            With "Auuto"
+                        </h4>
+                        <a href="https://www.pinterest.se/pin/657877458087684631/" target="_blank" class="collab-link">
+                            Artwork: Auuto Commission
+                        </a>
+                    </div>
+
+                    <div class="timeline-item" data-dates="Summer 2023">
+                        <h4>
+                            With "Blue"
+                        </h4>
+                        <a href="https://www.pinterest.se/pin/657877458086521927/" target="_blank" class="collab-link">
+                            Artwork: Meliora
+                        </a>
+                    </div>
+
+                    <div class="timeline-item" data-dates="Summer 2023">
+                        <h4>
+                            With "Breadzzy"
+                        </h4>
+                        <a href="https://www.pinterest.se/pin/657877458082183100/" target="_blank" class="collab-link">
+                            Artwork: Destiny 2 character
+                        </a>
+                    </div>
+
+                    <div class="timeline-item" data-dates="Summer 2019 -  Summer 2020">
+                        <h4>
+                            With Emma Fyrmark
+                        </h4>
+                        <a href="https://drive.google.com/file/d/1bsQUsmVJoWa4Dj9G6HOR5fYwtI1IA0e5/view?usp=sharing" target="_blank" class="collab-link">
+                            UEG graduation project: Baseball Animation
+                        </a>
+                    </div>
+
+                    <br>
+                </div>
+            </div>
+            <div class="col-md-8 bg-color-three-reasons secion-column">
+                <div class="row">
+                    <div class="col">
+                        <h3 class="section-heading uppercase white-font text-center">
+                            Got a project in mind?
+                        </h3>
+                        <h5 class="uppercase text-center white-font">
+                            Let's work together
+                        </h5>
+                        <div class="center-form">
+                            <form onsubmit="return sendMail(this);">
+                                <input type="text" name="name" id="fulname" class="form-control" placeholder="Name" required>
+                                <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required>
+                                <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Message" required></textarea>
+                                <div class="form-row text-center">
+                                    <div class="col">
+                                        <button type="submit" class="btn btn-secondary" onclick="test">
+                                            Send Collaboration Request
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+           </div>
+    </section>
+    <footer class="container-fluid">
+        <div id="footer-details" class="row">
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">
+                    About Me
+                </h5>
+                <p class="inline-block">
+                    Junor full stack developer ranging from HTML, to Python.
+                     Digital artist and designer profecient in CSP, Photoshop and Illustrator.
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">
+                    Download CV
+                </h5>
+                <p class="inline-block">
+                    You can download a printable PDF version of my CV here:
+                    <a href="../ali_resume/assets/cv/ALI resume.pdf" target="_blank" class="cv-pdf">
+                        <i class="fa fa-download" aria-hidden="true">
+                            <span class="sr-only">Download</span>
+                        </i>
+                    </a>
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">
+                    My Socials
+                </h5>
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.instagram.com/midnatt_lantern/?igshid=NGVhN2U2NjQ0Yg%3D%3D&utm_source=qr">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item social-links">
+                        <a target="_blank" href="https://www.pinterest.se/midnatt_lantern/art-by-midnatt-lantern/">
+                            <i class="fa fa-pinterest" aria-hidden="true"></i>
+                            <span class="sr-only">Pinterest</span>
+                        </a>
+                    </li>
+
+                    <li class="list-inline-item social-links">
+                        <a target="_blank" href="https://www.linkedin.com/in/alma-isaksson-16799a190/">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            <span class="sr-only">Linkedin</span>
+                        </a>
+                    </li>
+
+                    <li class="list-inline-item social-links">
+                        <a href="https://midnight_lantern.artstation.com" target="_blank">
+                            <i class="fa fa-brands fa-artstation" aria-hidden="true"></i>
+                            <span class="sr-only">Artstation</span>
+                        </a>
+                    </li>
+
+                    <li class="list-inline-item social-links show-discord-tag">
+                        <a href="https://www.discord.com/" target="_blank">
+                            <i class="fa fa-brands fa-discord" aria-hidden="true"></i>
+                            <span class="sr-only">Discord</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item social-links discord-tag">
+                        <p>Midnatt Lantern#6438</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="../ali_resume/assets/js/sendEmail.js">
+
+    </script>
+</body>
+</html>
